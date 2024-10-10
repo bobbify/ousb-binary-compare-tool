@@ -1,0 +1,21 @@
+{
+    "EnterYourFileName": "Lab3_SampleBinary",
+    "SampleBinaryFileName": "Lab3_SampleBinary",
+    "test_commands": [
+        {
+            "pinc": "12",
+            "adc5": "125",
+            "command": "12 c3"
+        },
+        {
+            "pinc": "1",
+            "adc5": "34",
+            "command": "1 c4"
+        },
+        {
+            "pinc": "34",
+            "adc5": "25",
+            "command": "56 c4"
+        }
+    ]
+}
