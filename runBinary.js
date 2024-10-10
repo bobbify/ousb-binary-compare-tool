@@ -1,6 +1,8 @@
 const { exec } = require('child_process');
 const fs = require('fs');
 
+//following stuff is copied from some website, comments and all.
+
 async function runBinary(name, inputcmd) {
     return new Promise((resolve, reject) => {
     exec(name + " " + inputcmd, async function (err, stdout, stderr) {
