@@ -25,6 +25,9 @@ async function compare() {
     }
     if (i-1 > increment) {
     setTimeout(compare,0)
+    } else {
+        WriteFile("Mismatches", toString(NotMatches))
+        console.log("Mismatches logged to txt file.")
     }
     increment++
 };
